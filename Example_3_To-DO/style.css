@@ -15,7 +15,6 @@ ul li {
   font-size: 18px;
   transition: 0.2s;
   list-style-type: none;
-
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -108,29 +107,29 @@ input {
   background-color: #bbb;
 }
 
-#liveToast{
-  background-color:#f78501;
+#liveToast {
+  background-color: #f78501;
   color: #fff;
   width: 200px;
   text-align: center;
 }
 
-#liveToastError{
-  background-color:#f78501;
+#liveToastError {
+  background-color: #f78501;
   color: #fff;
   width: 500px;
   text-align: center;
 }
 
-.todoli{
+.todoli {
   position: relative;
 }
 
 
-.mark{
+.mark {
   /* border:2px solid saddlebrown; */
   width: 50px;
-  height:100%;
+  height: 100%;
   text-align: center;
   position: absolute !important;
   right: 0px !important;
@@ -139,12 +138,12 @@ input {
   background-color: transparent !important;
 }
 
-.mark:hover{
-  background-color:#f78501 !important;
+.mark:hover {
+  background-color: #f78501 !important;
   color: #ddd;
 }
 
-.fa-solid{
+.fa-solid {
   position: relative;
   top: 20%;
   right: 35%;

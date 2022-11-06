@@ -13,7 +13,7 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Yapılacaklar Listesi</title>
+    <title>To do list</title>
   </head>
   <body>
     <div class="mr-1" style="position: relative">
@@ -33,10 +33,10 @@
               data-dismiss="toast"
               aria-label="Close"
             >
-              <span aria-hidden="true">&times;</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
-          <div class="toast-body">Listeye eklendi.</div>
+          <div class="toast-body">addedToTheList.</div>
         </div>
       </div>
     </div>
@@ -57,7 +57,7 @@
               data-dismiss="toast"
               aria-label="Close"
             >
-              <span aria-hidden="true">&times;</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="toast-body" id="fail"></div>
@@ -72,10 +72,10 @@
           class="mb-1"
           alt=""
         />
-        <h2>Yapılacaklar Listesi</h2>
-        <input type="text" id="task" placeholder="Bugün ne yapacaksın?" />
+        <h2>To do list</h2>
+        <input type="text" id="task" placeholder="What are you doing today?" />
         <span id="liveToastBtn" class="button"
-          >Ekle</span >
+          >Add</span >
       </div>
       <ul id="list">
       </ul>
